@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    background-image: url("../Imagenes/FondoPrincipal.jpg");
+  }
+  
+  nav {
+    float: left;
+    width: 100%;
+    background-image: url
+    padding: 5px;
+  }
+  
+  /* Style the list inside the menu */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: 
+    }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  
+  li a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 90%;
+    background-color: #ffffff;
+   }
+  
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 10px) {
+    nav, article {
+      width: 100%;
+      height: auto
+    }
+  }
+  h1{
+    text-align: center;
+  }
+  h3{
+    padding-left: ;
+  }
+  section{
+    opacity: 0.5;
+    background-color:  gray;
+    padding-left: 100px;
+  }
+  p{
+    text-align: center;
+  }
+  .grupo1{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .grupo2{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .grupo3{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .grupo4{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+    border-color: red;
+    border-style: solid;
+  }
+  .ubuntu1{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 250px;
+  }
+  .ubuntu2{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 375px;
+  }
+  .ubuntu3{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 330px;
+  }
+  .ubuntu4{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+  
+  }
+  .windows{
+    display: flex;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+  }
