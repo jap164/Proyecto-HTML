@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "./css/estilo.css">
+<title>Instalaciones</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("article").hide()
+  $("#menuAntiVirus").click(function(){
+    $("article").hide()
+    $("#Antivirus").show();
+  });
+  $("#menuProgramas Portables").click(function(){
+    $("article").hide()
+    $("Portables").show();
+  });
+  $("#menuProgramas Ofimáticos").click(function(){
+    $("article").hide()
+    $("#Ofimáticos").show();
+  });
+  $("#menuProgramas Para Recuperar Datos").click(function(){
+    $("article").hide()
+    $("#Recuperar datos").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<h1>FUNDAMENTOS de HARDWARE</h1>
+<p>En esta página se enseñará a descargar diferentes tipos de aplicaciones tanto en Windows como en Ubuntu</p>
+
+<section>
+    <nav>
+        <ul>
+            <h3>Antivirus</h3>
+                <ul class="grupo1">
+                   <div class="windows">
+                        <h4>Windows</h4>
+                        <ul class="boton1">
+                            <li id="menuTotalAVW"><a href="./HTML/TotalAV Windows.html">TotalAV</a></li>
+                            <li id="menuFree Avast AntivirusW"><a href="./HTML/FreeAvastAV Windows.html">Free Avast AntiVirus</a></li>
+                        </ul>
+                   </div>
+                        <div class="ubuntu1">
+                            <h4>Ubuntu</h4>
+                         <ul class="boton2">
+                         <li id="menuTotalAVU"><a href="./HTML/ClamAV Ubuntu.html">ClamAV</a></li>
+                         </ul>
+                        </div>
+                </ul>
+            <h3>Programas Portables</h3>
+                <ul class="grupo2">
+                   <div class="windows">
+                        <h4>Windows</h4>
+                        <ul class="boton3">
+                            <li id="menuGIMPW"><a href="./HTML/GIMP-PP Windows.html">GIMP</a></li>
+                            <li id="menuVLCW"><a href="./HTML/VLC-PP Windows.html">VLC</a></li>
+                        </ul>
+                   </div>
+                    <div class="ubuntu2">
+                        <h4>Ubuntu</h4>
+                        <ul class="grupo3">
+                            <ul class="boton3">
+                                <li id="menuVLCU"><a href="./HTML/VLC Ubuntu.html">VLC</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </ul>
+           <h3>Programas Ofimáticos</h3>
+                <ul class="grupo3">
+                    <div class="windows">
+                            <h4>Windows</h4>
+                        <ul class="boton4">
+                            <li id="menuLibreOfficeW"><a href="./HTML/LibreOffice-PO Windows.html">LibreOffice</a></li>
+                            <li id="menuZoomW"><a href="./HTML/Zoom-PO Windows.html">Zoom</a></li>
+                        </ul>
+                    </div>
+                   <div class="ubuntu3">
+                        <h4>Ubuntu</h4>
+                        <ul class="boton5">
+                            <li id="menuLibreOfficeU"><a href="./HTML/LibreOffice Ubuntu.html">LibreOffice</a></li>
+                            <li id="menuGoogleDocsU"><a href="./HTML/Zoom Ubuntu.html">Zoom</a></li>
+                        </ul>
+                   </div>
+                </ul>
+          <h3>Programas Para Recuperas datos</h3>
+                <ul>
+                    
+                    <ul class="grupo4">
+                        <div class="windows">
+                                <h4>Windows</h4>
+                            <ul class="boton8">
+                                <li id="menuTenorshare 4DDiGW"><a href="./HTML/Tenorshare 4DDiG Windows.html">Tenorshare 4DDiG</a></li>
+                                <li id="menuMiniTool Power Data RecoveryU"><a href="./HTML/MiniTool Windows.html">MiniTool Power Data Recovery</a></li>
+                            </ul>
+                        </div>
+                       <div class="ubuntu4">
+                            <h4>Ubuntu</h4>
+                            <ul class="boton7">
+                                <li id="menuTenorshare 4DDiGW"><a href="./HTML/Recuperar datos Ubuntu.html">Recuperación de Datos</a></li>
+                            </ul>
+                       </div>
+                    </ul>
+                   
+                </ul>
+        </ul>
+    </nav>
+</section>
